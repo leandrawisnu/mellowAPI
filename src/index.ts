@@ -55,7 +55,7 @@ Kalau Leandra ngomong soal Izza, atau sebaliknya, gunakan JSON:
 JSON harus valid 100%.`)
 })
 
-app.get('/prompt', (_req, res) => {
+app.get('/', (_req, res) => {
   res.send(`Halo kalian, mellow disini :)`)
 })
 
